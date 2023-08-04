@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem adaptativa</title>
+</head>
+<body>
+    <h1>Demostração de imagem dinâmica</h1>
+    <p>Ela irá se adaptar conforme o tamanho da tela</p>
+     <picture>
+        <source media="(max-width: 700px)" srcset="Azul-P.png">
+        <source media="(max-width: 1000px)" srcset="Ciano-M.png">
+        <img src="Vermelho-G.png" alt="Imagem">
+    </picture>   
+</body>
+</html>
