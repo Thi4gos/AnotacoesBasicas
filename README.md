@@ -1,2 +1,2 @@
 # Exercicios
- Exercícos de html e css
+ Exercícos de html css e JavaScript

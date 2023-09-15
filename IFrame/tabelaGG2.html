@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas 2</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            text-align: center;
+            margin: 40px;
+            position: relative;
+            margin: auto;
+            
+        }
+        caption {
+            width: 400px;
+            padding: 20px;
+            background-color: gray;
+        }
+        thead, tfoot {
+            background-color: gray;
+            border: 2px solid black;
+        }
+        td {
+            text-align: left;
+            border: 2px solid black;
+            padding: 8px;
+        }
+        .estado {
+            color: rgb(82, 137, 246);
+        }
+        .num {
+            text-align: right;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: bisque;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(245, 157, 157);
+            padding: 8px;
+        }
+        .unidade {
+           background-color:aquamarine;
+        }
+        .num1 {
+            color: red;
+        }
+        div#conteiner {
+            overflow-x: auto; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas grandes</h1>
+    <a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_população">A efeito de comparação</a><br>
+    <!--ANATOMIA DE TABELAS GRANDES
+        CAPITION = LEGENDA
+            TABLE
+                THEAD
+                    tr, td, th
+                TBODY
+                    tr, td, th
+                TFOOT
+                    tr, td, th
+            TH = Título
+            TD = Dados
+        -->
+        <div id="conteiner">
+            <table>
+                <colgroup>
+                    <col class="unidade">
+                    <col class="num1">
+                </colgroup>
+                <caption>
+                    Unidades ferativas e população
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Unidade federativa</th>
+                        <th>População</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="estado">São Paulo</td>
+                        <td class="num">44 420 459</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Minas Gerais</td>
+                        <td class="num">20 538 718</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Rio de janeiro</td>
+                        <td class="num">16 054 524</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Bahia</td>
+                        <td class="num">14 136 417</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Paraná</td>
+                        <td class="num">11 443 208</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Rio grande do Sul</td>
+                        <td class="num">10 880 506</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Pernanbuco</td>
+                        <td class="num">9 058 155</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Ceará</td>
+                        <td class="num">8 791 688</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Pará</td>
+                        <td class="num">8 116 132</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Santa Catarina</td>
+                        <td class="num">7 609 601</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Goiás</td>
+                        <td class="num">7 055 228</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Maranhão</td>
+                        <td class="num">6 775 152</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Paraíba</td>
+                        <td class="num">3 974 495</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Amazonas</td>
+                        <td class="num">3 941 175</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Espírito Santos</td>
+                        <td class="num">3 833 486</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">mato Grosso</td>
+                        <td class="num">3 658 813</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Rio grande do Norte</td>
+                        <td class="num">3 302 406</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Piauí</td>
+                        <td class="num">3 269 200</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Alagoas</td>
+                        <td class="num">3 127 511</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Distrito Federal</td>
+                        <td class="num">2 817 068</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Rio grande do Sul</td>
+                        <td class="num">2 756 700</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Serjipe</td>
+                        <td class="num">2 209 558	</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Rondônia</td>
+                        <td class="num">1 581 016</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Tocantins</td>
+                        <td class="num">1 511 459</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Acre</td>
+                        <td class="num">830 026</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Amapa</td>
+                        <td class="num">733 508</td>
+                    </tr>
+                    <tr>
+                        <td class="estado">Ronaima</td>
+                        <td class="num">636 303</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <th>Total de habitantes</th>
+                    <td class="foot">000 000</td>
+                </tfoot>
+            </table>
+        </div>
+</body>
+</html>
