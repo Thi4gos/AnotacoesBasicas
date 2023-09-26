@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário primeiro</h1>
+    <!-- action: Este é o atributo que especifica para onde os dados do formulário serão enviados após o envio. -->
+    <!-- method: Define o método HTTP a ser usado ao enviar o formulário. Os dois métodos principais são GET e POST. GET anexa os dados do formulário à URL, enquanto POST os envia no corpo da solicitação. -->
+    
+        <form action="planilha.php" id="formulario" method="get" autocomplete="off">
+            <label for="name">Nome</label>
+            <!-- O elemento <label> é usado para associar um rótulo descritivo a um campo de entrada, como um campo de texto ou uma caixa de seleção. -->
+            <!-- for: O atributo for no elemento <label> deve corresponder ao atributo id do campo de entrada que você deseja associar ao rótulo. Isso cria uma relação entre o rótulo e o campo. -->
+            <input type="text" name="name" id="name">
+            <!-- Os campos de entrada de texto são usados para coletar informações de texto, como nomes, e-mails ou comentários. Eles são criados usando a tag <input> com type="text". -->
+            <!-- name: Este é o nome do campo, que será usado para identificar o campo quando você processar os dados do formulário no lado do servidor. -->
+            <!-- placeholder: O texto que aparece como uma dica dentro do campo. -->
+            <select name="selacao" id="opcoes">
+                <option value="web">Dev</option>
+                <option value="fil">Filosofia</option>
+            </select>
+            <!-- Para criar uma lista suspensa de opções, use a tag <select> com várias tags <option> dentro dela. -->
+            <input type="radio" name="sexo" value="masculino"> Masculino
+            <input type="radio" name="sexo" value="feminino"> Feminino
+
+            <input type="checkbox" name="interesses" value="web"> Desenvolvimento Web
+            <input type="checkbox" name="interesses" value="filosofia"> Filosofia
+            <!-- Para permitir que os visitantes enviem o formulário, você pode usar a tag <input> com type="submit".
+            O atributo value define o texto exibido no botão. -->
+            <input type="submit" value="enviar">
+            <!-- type="password": Para senhas.
+            type="email": Para endereços de e-mail.
+            type="checkbox": Para caixas de seleção.
+            type="radio": Para botões de rádio (escolha única).
+            type="file": Para uploads de arquivos. -->
+        </form>
+    
+</body>
+</html>

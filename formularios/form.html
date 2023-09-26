@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário primeiro</h1> <br>     
+        <div class="form">
+            <form action="planilha.php" id="formulario" method="get" autocomplete="off">          
+                <pre>
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" maxlength="10" minlength="5" placeholder="Nome">
+                    <label for="srnome">Sobrenome</label>
+                    <input type="text" name="srnome" id="srnome" placeholder="Sobrenome">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" minlength="7" placeholder="Senha" autocomplete="@">
+                </pre>
+                
+                
+            
+            
+                <pre>
+                    <select name="selacao" id="opcoes">
+                        <option value="web">Dev</option>
+                        <option value="fil">Filosofia</option>
+                    </select>
+                    <input type="radio" name="sexo" value="masculino"> Masculino
+                    <input type="radio" name="sexo" value="feminino"> Feminino
+                    <input type="checkbox" name="interesses" value="web"> Desenvolvimento Web
+                    <input type="checkbox" name="interesses" value="filosofia"> Filosofia
+                    <input type="reset" value="reseta">
+                    <input type="submit" value="enviar">
+                    
+                </pre>
+            </form>         
+        </div>          
+</body>
+</html>

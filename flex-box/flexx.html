@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box</title>
+    <link rel="stylesheet" href="flexstyle.css">
+</head>
+<body>
+    <h1 class="titulo"7>Box flexible </h1>
+    <div class="lista">
+        <h1>Flex-diretion</h1>
+        <ul type="none">
+            <li>row</li>
+            <li>row-reverse</li>
+            <li>colun</li>
+            <li>colun-reverse</li>
+        </ul>
+        <h1>justify-content</h1>
+        <ul type="none">
+            <li>flex-start</li>
+            <li>flex-end</li>
+            <li>center</li>
+            <li>space-between</li>
+            <li>space-around</li>
+        </ul>
+        <h1>align-itens</h1>
+        <ul type="none">
+            <li>flex-start</li>
+            <li>flex-end</li>
+            <li>center</li>
+            <li>stretch</li>
+            <li>baseline</li> 
+        </ul>
+        <div class="wrap">
+            <h1>Flex-wrap</h1>
+            <ul type="none">
+                <li>wrap</li>
+                <li>wrap-reverse</li>
+                <li>row wrap</li>
+                <li>colun wrap-reverse</li>
+            </ul>
+            <h1>junto ao align-itens/flex-flow</h1>
+            <ul>
+                <li>Ex; row wrap</li>
+                <li>colun-reverse wrap</li>
+            </ul>
+        </div>
+        <h1>align-content/wrap</h1>
+        <ul>
+            <li>flex-start</li>
+            <li>flex-end</li>
+            <li>center</li>
+            <li>space-between</li>
+            <li>space-around</li>
+        </ul>
+        <h1>Gap</h1>
+    </div>
+    <main class="container">
+        <div class="bloco-1">A</div>
+        <div class="bloco-2">BCDFRESDT</div>
+        <div class="bloco-3">C</div>
+        <!-- <div class="bloco-1">A</div>
+        <div class="bloco-2">B</div>
+        <div class="bloco-3">C</div>
+        <div class="bloco-1">A</div>
+        <div class="bloco-2">B</div>
+        <div class="bloco-3">C</div>  -->
+    </main>
+    <div class="lista-2">
+        <h1> Das divs filhas</h1>
+        <p><strong>Order</strong> para definir a ordem dos elementos usando, por exemplo, <span>order: 1</span> para definir que certo elemento ficara a direita de outros menores. Como em uma reta numérica</p>
+        <p><strong>Flex-grow</strong> para os elementos ocuparem de forma proporcional aos valores dos elementos vizinhos, utilizando <span>Flex-grow: 1</span> assim fazendo com que ocupe todo o espaço possível ao lado. Se por exemplo dois elementos forem <span>flex-grow: 1 e 2</span> o espaço livro sera dividido em 3 e o primeiro ocupara 1/3 desse.</p>
+        <p>O <strong>Flex-shrink</strong> funciona de forma inversa ao <span>Flex-grow</span> diminuindo os elementos de acordo com os seus valores.</p>
+        <p><strong>Flex-basis</strong> pode definir </p>
+        <p><strong>Flex</strong> é uma uma junção ou <span>shorthand</span> do flex-grow, Flex-shrink e Flex-basis sendo definido como, por exemplo, <span>flex: 0 1 auto;</span>.</p>
+        <p><strong>Align-self</strong> alinha o elemento específico com <span>Align-self: flex-end ou start, center;</span>.</p>
+    </div>
+</body>
+</html>

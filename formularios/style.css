@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(82, 82, 82);
+}
+h1 {
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(53, 53, 53);
+}
+.form {
+    display: inline-block;
+    position: relative;
+    max-width: 95%;
+    top: 70px;
+    left: 60px;
+}
+label {
+    color: aquamarine;
+    font: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+label:hover {
+    color: black;
+}
+input {
+    margin: 4px;
+    background-color: rgb(22 22 22);
+    color: #4ba1ec;
+    padding: 4px;
+    font-family: fantasy;
+}
+
+
