@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    
 }
 body {
     display: flex;
@@ -8,7 +9,7 @@ body {
     align-items: start;
     justify-content: center;
     height: 100vh;
-    background-color: bisque;
+    background-color: rgb(33, 32, 34);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .container {
@@ -17,7 +18,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: aliceblue;
-    row-gap: 40px;    
+    row-gap: 30px;    
     width: 50%;
     height: auto;  
 }
@@ -25,9 +26,43 @@ h1 {
     font-size: 50pt;
     font-weight: bold;
 }
+img {
+    border: 4px solid white;
+    border-radius: 50%;
+    width: 450px;
+    height: 400px;
+}
 p {
     font-size: 1.2em;
 }
-input {
-    width: 30px;
+button {
+    width: 100px;
+    margin: 0 10px;
+}
+#btn-manha {
+    color: rgb(60, 60, 60);
+    border: 2px solid rgb(255, 255, 143);
+}
+#btn-manha:hover {
+    color: black;
+    font-weight: bold;
+    background-color: rgb(255, 255, 143);
+}
+#btn-tarde {
+    color: rgb(60, 60, 60);
+    border: 2px solid rgb(251, 185, 72);
+}
+#btn-tarde:hover {
+    font-weight: bold;
+    color: black;
+    background-color: rgb(251, 185, 72);
+}
+#btn-noite {
+    color: rgb(60, 60, 60);
+    border: 2px solid rgb(61, 61, 61);
+}
+#btn-noite:hover {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(61, 61, 61);
 }
